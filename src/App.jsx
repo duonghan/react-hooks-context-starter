@@ -1,9 +1,15 @@
 import React from "react";
+import { Container } from 'semantic-ui-react';
+
+import Counter from './views/Counter';
+import Contacts from './views/Contacts';
 
 export default function App() {
   return (
-    <div>
+    <Container>
       <h1>React Parcel Starter Kit</h1>
-    </div>
+      {/* <Counter /> */}
+      <Contacts />
+    </Container>
   );
 }
